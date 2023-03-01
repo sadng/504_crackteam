@@ -13,7 +13,7 @@ L.Control.measureControl().addTo(map);
 var drawnItems = L.featureGroup().addTo(map);
 
 var tableData = L.layerGroup().addTo(map);
-var url = "https://gisdb.xyz/sql?q=";
+var url = "https://gisdb.xyz/sql?q=";   // was previously "https://178.128.228.240:4000/sql?q="
 
 var sqlQuery = "SELECT geom, startpinid, goalpinid, calcone, calctwo, calcthree, calcfour, collectiondate FROM crackteam";
 function addPopup(feature, layer) {
